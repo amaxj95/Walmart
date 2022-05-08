@@ -1,0 +1,143 @@
+{
+  "id": "ad0dab42-716e-4170-adc6-74582bce1a03",
+  "version": "2.0",
+  "name": "newWalmartTests",
+  "url": "https://www.walmart.com/",
+  "tests": [{
+    "id": "0e5f23d6-c761-494e-8806-95449543d0ca",
+    "name": "Untitled",
+    "commands": [{
+      "id": "ac9488e7-fe78-4a60-b00e-31611ddc44a3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbe701a3-552c-421d-98ca-fbe2abdf0dbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.relative:nth-child(6) > .flex",
+      "targets": [
+        ["css=.relative:nth-child(6) > .flex", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/span/header/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?vid=oaoh')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbabf3c8-5a95-46b2-9bd6-a984ab577b94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w_AU:nth-child(2)",
+      "targets": [
+        ["css=.w_AU:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/span/header/div/div[2]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Create an account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c021d59e-c4cd-4f4c-b827-d887aa986adb",
+      "comment": "",
+      "command": "type",
+      "target": "id=first-name-su",
+      "targets": [
+        ["id=first-name-su", "id"],
+        ["name=firstName", "name"],
+        ["css=#first-name-su", "css:finder"],
+        ["xpath=//input[@id='first-name-su']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Wally"
+    }, {
+      "id": "4105c043-e095-4afb-9377-02b5ab55123e",
+      "comment": "",
+      "command": "type",
+      "target": "id=last-name-su",
+      "targets": [
+        ["id=last-name-su", "id"],
+        ["name=lastName", "name"],
+        ["css=#last-name-su", "css:finder"],
+        ["xpath=//input[@id='last-name-su']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Mart"
+    }, {
+      "id": "560479dd-900a-4604-8dfd-3a63aaf6a462",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-su",
+      "targets": [
+        ["id=email-su", "id"],
+        ["css=#email-su", "css:finder"],
+        ["xpath=//input[@id='email-su']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "amaxj95@gmail.com"
+    }, {
+      "id": "2880aa7f-ded1-4178-8f53-972f32cab8be",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-su",
+      "targets": [
+        ["id=password-su", "id"],
+        ["css=#password-su", "css:finder"],
+        ["xpath=//input[@id='password-su']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "walmartPass1"
+    }, {
+      "id": "4f768376-9399-4a7f-81dc-fd7e951c2673",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(8) > .option > label",
+      "targets": [
+        ["css=div:nth-child(8) > .option > label", "css:finder"],
+        ["xpath=//form[@id='sign-up-form']/div[6]/div/label", "xpath:idRelative"],
+        ["xpath=//div[6]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Keep me signed in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f956efe2-46d2-49f5-9651-24e49c2d6d97",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sign-up-form > .option > label",
+      "targets": [
+        ["css=#sign-up-form > .option > label", "css:finder"],
+        ["xpath=//form[@id='sign-up-form']/div[7]/label", "xpath:idRelative"],
+        ["xpath=//div[7]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Send me emails about new arrivals, hot items, daily savings, & more.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5cb14c7-7ace-41e9-a465-1ebfadc5b3b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sign-up-form > .button:nth-child(11)",
+      "targets": [
+        ["css=#sign-up-form > .button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/button", "xpath:idRelative"],
+        ["xpath=//form[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2f9181d4-13ad-4658-b09f-d37d7b1a4a2a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0e5f23d6-c761-494e-8806-95449543d0ca"]
+  }],
+  "urls": ["https://www.walmart.com/"],
+  "plugins": []
+}
