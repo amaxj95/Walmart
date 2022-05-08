@@ -51,7 +51,7 @@ public class UntitledTest {
     // 5 | type | id=last-name-su | Mart
     driver.findElement(By.id("last-name-su")).sendKeys("Mart");
     // 6 | type | id=email-su | amaxj95@gmail.com
-    driver.findElement(By.id("email-su")).sendKeys("amaxj95@gmail.com");
+    driver.findElement(By.id("email-su")).sendKeys("YOUREMAIL@EMAIL.COM");
     // 7 | type | id=password-su | walmartPass1
     driver.findElement(By.id("password-su")).sendKeys("walmartPass1");
     // 8 | click | css=div:nth-child(8) > .option > label | 
